@@ -1,4 +1,4 @@
-module Omniauth
+module OmniAuth
   module FiveHundredPx
     VERSION = "0.1.0"
   end
