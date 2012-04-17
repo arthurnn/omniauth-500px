@@ -22,6 +22,7 @@ Once these are in, you need to add the following to your `config/initializers/om
     	provider :fiveHundredPx, 'consumer_key', 'consumer_secret'
     end
 
+User the name of the class as provider(fiveHundredPx), however to authorize, you should use the provider name which is '500px'.
 
 
 You will obviously have to put in your key and secret, which you can get from http://developer.500px.com/oauth_clients/new
@@ -32,6 +33,11 @@ After you have the gem running and the configuration is done, you can get to the
 	http://localhost:3000/auth/500px
 
 Now just follow the README at: https://github.com/intridea/omniauth
+
+Questions
+---------
+
+For any question, fell free to send me a tweet http://twitter.com/arthurnn
 
 License
 -------
