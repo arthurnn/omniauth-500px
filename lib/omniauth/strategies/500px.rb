@@ -22,15 +22,15 @@ module OmniAuth
       info do 
         {
           :nickname => user_info['username'],
-          :email => raw_info['email'],
+          :email => user_info['email'],
           :name => user_info['fullname'],
-          :first_name => raw_info['firstname'],
-          :last_name => raw_info['lastname'],
+          :first_name => user_info['firstname'],
+          :last_name => user_info['lastname'],
           :description => user_info['about'],
-          :image => raw_info['userpic_url'],
+          :image => user_info['userpic_url'],
           :urls => {
-            '500px' => raw_info['domain'],
-            'Website' => raw_info['contacts']['website']
+            '500px' => user_info['domain'],
+            'Website' => user_info['contacts']['website']
           }
         }
       end
