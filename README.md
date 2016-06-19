@@ -3,7 +3,7 @@ OmniAuth 500px
 
 This gem contains the 500px strategy for OmniAuth.
 
-For more information about the 500px api: http://developer.500px.com/
+For more information about the 500px api: http://developers.500px.com/
 
 How To Use It
 -------------
